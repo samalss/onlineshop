@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+}
+
+html{
+height: 100%;
+}
+body{
+  background-color: 	white;
+}
+
+.dropdown-item button{
+  font-family: "Roboto Condensed", sans-serif;
+  border: 1px solid #eee;
+  padding: 14px;
+  width: 125px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 6px 2px;
+  }
+  
+  .dropdown-item a:hover{
+    text-decoration: none;
+    color: #ff3355;
+  }
+
+  .item-cart{
+    color: black;
+  }
+
+  .button-check {
+    background-color: #ff3355;
+    color: white; 
+    float: right;
+    border-radius: 30px;
+  }
+  
+  .button-view {
+    color: black;
+    border-radius: 30px;
+  }
+  .dropdown-menu button{
+    font-family: "Roboto Condensed", sans-serif;
+    border: 1px solid #eee;
+    padding: 14px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 6px 2px;
+    }
+  
+  .button-profile{
+    background-color: #ff3355;
+    color: #ff3355; 
+    float: right;
+    border-radius: 30px;
+    
+      }
+
+.button-profile{
+  color: white;
+}
+.button-exit{
+  color: black;
+}
+
+  .button-exit{
+    color: black;
+    background-color:  #dbdbdb;
+    border-radius: 30px;
+    float: right;
+
+  }
+  .dropbtn {
+  color: white;
+
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.tr-hover a{
+color: #ff3355;
+font-family: "Roboto Condensed", sans-serif;
+font-size: 15px;
+}
+
+.tr-hover a{
+  color:#ff3355;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  }
+
+.td-hover a{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+.footer-text a{
+  text-align: left;
+  font-size: 15px;
+  color: #777;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer-text h5{
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+}
+
+
+.footer-text a:hover{
+  color:  #ff3355;
+}
+
+.footer-bottom a{
+  font-size: 15px;
+  color: #777;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.modal-header a{
+  font-size: 25pt;
+  }
+
+.login{
+font-size: 25pt;
+text-align: center;
+padding: 44px;
+}
+
+input.form-control{
+  border-radius: 0;
+  border-color:  #d9d9d9;
+  padding: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13px;
+ 
+}
+
+.modal-footer a{
+ letter-spacing: 3px;
+}
+.circle{
+  display: block; 
+  margin: 0px auto; 
+  border-radius: 50%; 
+  border: 1px solid #d9d9d9; 
+  width: 90px; 
+  height: 90px;
+}
+.circle-recom{
+display: inline-block;
+  border-radius: 50%; 
+  border: 1px solid #d9d9d9; 
+  width: 42px; 
+  height: 42px;
+}
+.log-text{
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px auto; 
+  width: 80%; 
+  font-size: 15px; 
+  color: #b3b3b3; 
+  font-family: Roboto Condensed, sans-serif;
+}
+
+input.form-control::placeholder {
+  color: #b3b3b3;
+  border-color: #b3b3b3;
+}
+
+.footer-top{
+  padding-bottom: 30px;  
+}
+
+.card-body a{
+  font-family: Roboto Condensed, sans-serif;
+}
+.arrow{
+  font-size: 16pt; 
+  float: right; 
+  color: #777;
+  text-decoration: none;
+}
+.arrow:hover{
+  color: #ff3355;
+  text-decoration: none;
+}
+
+
+#container {
+  display: inline-block;
+  overflow: hidden;
+}
+
+#container img {
+  display: block;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#container:hover img {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.summer{
+  letter-spacing: 3px;
+  font-size: 100%; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo-text{
+  font-size: 16pt;
+}
+
+.shop-now{
+  margin: 40px;
+}
+
+.shop-now-btn{
+  letter-spacing: 3px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 170px;
+  background-color: white;
+  font-size: 12pt; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+button.shop-now-btn:hover{
+  border: 1px solid #ff3355;
+  color: white;
+  background-color:#ff3355;
+}
+
+.recom{
+  margin: 20px;
+}
+.recom h5{
+  margin: 30px;
+  font-size: 20pt; 
+  font-family: Roboto Condensed, sans-serif;
+  color: black;
+}
+
+.container h5{
+  color: black; 
+  font-family: Roboto Condensed, sans-serif;
+}
+
+.recom-text{
+  text-align: center; 
+  margin-top: 20px;
+}
+.recom-text a{
+  font-size: 15pt;
+  color: black; 
+  font-family: Roboto Condensed, sans-serif;
+  padding-left: 4%;
+}
+
+.recom-text a:hover{
+  text-decoration: none;
+  color:#ff3355;
+}
+
+    .form-control{
+		height: 41px;
+		background: #f2f2f2;
+		box-shadow: none !important;
+		border: none;
+	}
+	.form-control:focus{
+		background: #e2e2e2;
+	}
+    .form-control, .btn{        
+        border-radius: 3px;
+    }
+
+
+    
+a.card-title{
+    font-size: 16pt; 
+    font-family: Roboto Condensed, sans-serif;
+    }
+p.card-title{
+    font-size: 20pt; 
+    font-family: Roboto Condensed, sans-serif;
+}  
+
+.buy-txt{
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  padding: 10%;
+}
+
+.buy-txt a{
+  COLOR: white;
+  font-size: 20pt; 
+  font-family: Roboto Condensed, sans-serif;
+}
+
+a:hover{
+text-decoration: none;
+}
+#lineblock > li{
+  display: inline-block;
+}
+
+#lineblock{
+    float: none;
+     text-align: center;
+    }
+
+    .my-form {
+      color: #305896;
+  }
+  .my-form .btn-default {
+      background-color: #305896;
+      color: #fff;
+      border-radius: 0;
+  }
+  .my-form .btn-default:hover {
+      background-color: #4498C6;
+      color: #fff;
+  }
+  .my-form .form-control {
+      border-radius: 0;
+  }
+
+ 
